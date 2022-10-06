@@ -44,6 +44,7 @@ class ToDoListViewController: UITableViewController {
 
 	override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
 		let row = indexPath.row
+                //       Keeping this in case deletion is implemented later
 		//		context.delete(itemArray[row])
 		//		itemArray.remove(at: row)
 		itemArray[row].done.toggle()
